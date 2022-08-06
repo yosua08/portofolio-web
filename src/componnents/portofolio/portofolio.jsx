@@ -1,48 +1,22 @@
 import React from 'react'
 import './portofolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/InSight.jpg'
+import IMG2 from '../../assets/MaK.jpg'
 
 const isi = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is project 1',
-    github: 'https://github.com'
+    title: 'InSight App',
+    github: 'https://github.com/yosua08/InSight',
+    about: 'https://youtu.be/8fZoMrwUWtc'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This is project 2',
-    github: 'https://github.com'
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'This is project 3',
-    github: 'https://github.com'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'This is project 4',
-    github: 'https://github.com'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'This is project 5',
-    github: 'https://github.com'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'This is project 6',
-    github: 'https://github.com'
+    title: 'Merdeka atau Kalah Game',
+    github: 'https://github.com/yosua08/Merdeka-atau-Kalah',
+    about: 'https://yozu-8.itch.io/merdeka-atau-kalah'
   }
 ]
 
@@ -54,7 +28,7 @@ const portofolio = () => {
       
       <div className="container portofolio__container">
         {
-          isi.map(({id, image, title, github}) => {
+          isi.map(({id, image, title, github, about}) => {
             return(
               <article key={id} className='portofolio__item'>
               <div className='portofolio__item-image'>
@@ -63,6 +37,7 @@ const portofolio = () => {
               <h3>{title}</h3>
               <div className='portofolio__item-cta'>
                 <a href={github} className='btn' target='_blank'>GitHub</a>
+                <a href={about} className='btn btn-primary' target='_blank'>About</a>
               </div>
             </article>
             )
