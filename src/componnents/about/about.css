@@ -6,7 +6,7 @@
 
 .about__me{
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 3/2;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
@@ -22,6 +22,7 @@
 
 .about__me-image:hover{
     transform: rotate(0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .about__cards{
@@ -43,6 +44,7 @@
     background: transparent;
     border-color: var(--color-bg-variant);
     cursor: default;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .about__icon{

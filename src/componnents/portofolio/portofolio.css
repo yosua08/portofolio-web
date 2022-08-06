@@ -15,11 +15,16 @@
 .portofolio__item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .portofolio__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+.portofolio__item-image:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .portofolio__item h3{

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/yosua.png'
+import ME from '../../assets/ypp.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -41,7 +41,7 @@ const about = () => {
           </div>
 
           <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum quasi tenetur necessitatibus dolor laboriosam rerum architecto sint placeat, tempore accusantium maxime reprehenderit praesentium, nemo itaque quidem, quae laudantium quis.
+            I am a person who has high analytical skills and is skilled at operating various IT support platforms. Easily adaptable to new things and good at building relationships with others and able to explain software issues in easy-to-understand language.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

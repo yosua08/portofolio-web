@@ -16,6 +16,7 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .experience__container > div h3{

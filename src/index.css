@@ -99,11 +99,12 @@ a:hover{
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .btn-primary{
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: #F3E9DD;
 }
 
 img{
