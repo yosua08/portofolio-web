@@ -35,10 +35,11 @@ html{
 
 body{
     font-family: "Poppins";
-    background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-white.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 /* ========== GENERAL STYLES ========== */
